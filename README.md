@@ -36,6 +36,14 @@ yarn format
 yarn start
 ```
 
+## Git & GitHub Guidelines
+
+-   Create separate branch whenever you start working on any issue or feature.
+-   Follow commit message conventions.
+-   Make sure your code is formatted when making a PR. (`yarn format`)
+-   Follow reviews in PR from maintainers.
+-   Make small changes at a time so that its easier to review, keep good code quality, and ensure uniform code style.
+
 ## Guides and Resources
 
 -   [React](https://react.dev/learn)
