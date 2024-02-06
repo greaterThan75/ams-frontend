@@ -1,3 +1,4 @@
+import { Link, Navigator } from "expo-router";
 import { useState } from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
 import { Button, Chip } from "react-native-paper";
@@ -13,7 +14,7 @@ export default function MainApp() {
 					style={styles.image}
 				/>
 			</View>
-			<Text>Welcome to DWoC 2023-24!</Text>
+			<Text>Bitu sudurvai!</Text>
 			<Button
 				icon="plus"
 				mode="contained"
@@ -22,6 +23,7 @@ export default function MainApp() {
 				Press me
 			</Button>
 			<Chip icon="information">Count: {count}</Chip>
+			<Link href={"/home"}>Home</Link>
 		</View>
 	);
 }
